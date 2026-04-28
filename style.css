@@ -67,15 +67,14 @@ main {
 
 .btn--outline {
     background: transparent;
-    border: 2px solid;
     font-size: 13px;
     letter-spacing: 1px;
     padding: 12px 32px;
 }
 
 .btn--teal {
-    border-color: #0d9488;
-    color: #0d9488 !important;
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%) #0d9488;
+    color: #fff !important;
 }
 
 .btn--teal:hover {
@@ -84,8 +83,8 @@ main {
 }
 
 .btn--white {
-    border-color: #fff;
-    color: #fff !important;
+    background: #fff;
+    color: #6415ff !important;
 }
 
 .btn--white:hover {
@@ -93,8 +92,8 @@ main {
 }
 
 .btn--red {
-    border-color: #ef4444;
-    color: #ef4444 !important;
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+    color: #fff !important;
 }
 
 .btn--red:hover {
@@ -684,7 +683,7 @@ header .row {
 }
 
 .pricing__card--featured {
-    background: #6415ff;
+    background: linear-gradient( 135deg,rgb(76, 81, 191) 0%,rgb(102, 126, 234) 100%);;
     border-color: #6415ff;
 }
 
@@ -692,9 +691,10 @@ header .row {
     height: 6px;
 }
 
-.pricing__card-top--teal { background: #0d9488; }
-.pricing__card-top--purple { background: rgba(255,255,255,0.3); }
-.pricing__card-top--red { background: #ef4444; }
+.pricing__card-top--teal { background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%); }
+.pricing__card-top--purple { background: linear-gradient( 135deg,rgb(76, 81, 191) 0%,rgb(102, 126, 234) 100%); }
+.pricing__card-top--red { background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+ }
 
 .pricing__card-inner {
     padding: 32px;
@@ -759,7 +759,7 @@ header .row {
 }
 
 .pricing__card--featured .pricing__for {
-    color: #a78bfa;
+    color: #fff;
 }
 
 .pricing__features {
